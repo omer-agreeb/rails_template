@@ -42,3 +42,16 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'acts_as_api'
 gem 'consul'
+gem 'ransack'
+gem 'kaminari'
+gem 'translate_enum'
+
+gem 'resque'
+gem 'resque-status'
+
+gem 'capistrano-bundler'
+gem 'capistrano-rails', require: false
+gem 'capistrano-resque', require: false
+gem 'capistrano-rvm'
+gem 'capistrano3-puma'
+gem 'capistrano-locally', require: false

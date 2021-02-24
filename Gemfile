@@ -55,3 +55,5 @@ gem 'capistrano-resque', require: false
 gem 'capistrano-rvm'
 gem 'capistrano3-puma'
 gem 'capistrano-locally', require: false
+
+gem 'rollbar'

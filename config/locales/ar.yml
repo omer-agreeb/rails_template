@@ -1,2 +1,31 @@
 ar:
-  hello: "مرحبا"
+  data_found:             'تم العثور على البيانات'
+  no_data_found:          'لاتوجد بيانات'
+  not_found:              'غير موجود'
+  x_not_found:            '%{name} غير موجود!'
+  update_successfully:    'تم التحديث بنجاح'
+  x_update_successfully:  'تم تحديث %{name} بنجاح'
+  created_successfully:   'تم الإنشاء بنجاح'
+  x_created_successfully: 'تم إنشاء %{name} بنجاح'
+  deleted_successfully:   'تم الحذف بنجاح'
+  x_deleted_successfully: 'تم حذف %{name} بنجاح'
+
+  errors:
+    e_500: "خطأ في الخادم الداخلي"
+    e_404: "غير موجود"
+    e_400: "بعض العناصر مفقودة"
+    e_403: "غير مصرح لك بالدخول"
+
+  base:
+    not_authenticated: "غير قادر على مصادقة المستخدم"
+    login_required: "يتطلب هذا الطلب تسجيل الدخول"
+    not_authorized: "تم رفض الإذن"
+    not_processed: "غير قادر على معالجة الطلب"
+    invalid_foreign_key: "لا يمكن حذف هذا السجل بسبب وجود سجلات أخرى مرتبطة به. "
+
+  session:
+    login: "تم تسجيل الدخول بنجاح"
+    invalid_key: "مفتاح الدخول غير صحيح "
+    logout: "تم تسجيل الخروج بنجاح"
+    not_auth: "بريدك الالكتروني غير موجود ضمن المؤسسة"
+    invalid_token: 'رمز تحقق تسجيل الدخول غير صحيح'

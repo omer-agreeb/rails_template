@@ -108,7 +108,7 @@ module ErrorHandlers
     )
   end
 
-  def render_timeout_error(err)
+  def render_timeout_error(_err)
     render(
       json: {
         success: false,

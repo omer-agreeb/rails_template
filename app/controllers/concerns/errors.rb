@@ -36,5 +36,5 @@ module Errors
     rescue_from BadRequestError, with: :render_bad_request_error
   end
 
-  class AuthorizationError < StandardError ;end
+  class AuthorizationError < StandardError; end
 end

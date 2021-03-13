@@ -3,7 +3,7 @@ class Base
 
   # attr_accessor :current_user, :params
 
-  def initialize()
+  def initialize
     # self.current_user = user
     # self.params = params
   end

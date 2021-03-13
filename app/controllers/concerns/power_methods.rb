@@ -7,7 +7,7 @@ module PowerMethods
     include Consul::Controller
 
     current_power do
-      class_power_name.new()
+      class_power_name.new
     end
 
     require_power_check

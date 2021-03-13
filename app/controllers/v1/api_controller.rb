@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-class V1::ApiController < ApplicationController
-  include PowerMethods
-  include AuthenticationMethods
+module V1
+  class ApiController < ApplicationController
+    include PowerMethods
+    include AuthenticationMethods
+  end
 end

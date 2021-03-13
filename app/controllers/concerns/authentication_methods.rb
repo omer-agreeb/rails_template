@@ -29,9 +29,7 @@ module AuthenticationMethods
   end
 
   def set_current_user
-    if token.present? && api_token&.user && api_token.user.active?
-      @current_user = api_token.user
-    end
+    @current_user = api_token.user if token.present? && api_token&.user && api_token.user.active?
   end
 
   def token
